@@ -37,6 +37,7 @@ git clone https://github.com/playhard21/MasterThesisRIoT
 make term BOARD=nucleo-f767zi \\ goes into the board
 make all flash term  \\ flash the code into board
 make all term - \\ compile the code and makes a dic in bin/
+make term BOARD=Board PORT=serialPort
 
 ```
 
